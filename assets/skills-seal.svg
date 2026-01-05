@@ -1,0 +1,78 @@
+<svg width="280" height="280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowMarker" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#c9302c" opacity="0.6"/>
+    </marker>
+  </defs>
+  
+  <!-- Outer ring - rotates clockwise in 90s with arrow markers -->
+  <g transform="translate(140, 140)">
+    <g>
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="0"
+                        to="360"
+                        dur="90s"
+                        repeatCount="indefinite"/>
+      <circle r="120" fill="none" stroke="#c9302c" stroke-width="2" opacity="0.4" 
+              stroke-dasharray="5,10" marker-start="url(#arrowMarker)"/>
+      <!-- Arrow markers around outer ring -->
+      <circle cx="0" cy="-120" r="3" fill="#c9302c" opacity="0.6"/>
+      <circle cx="120" cy="0" r="3" fill="#c9302c" opacity="0.6"/>
+      <circle cx="0" cy="120" r="3" fill="#c9302c" opacity="0.6"/>
+      <circle cx="-120" cy="0" r="3" fill="#c9302c" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Middle ring - rotates counter-clockwise in 60s -->
+  <g transform="translate(140, 140)">
+    <g>
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="360"
+                        to="0"
+                        dur="60s"
+                        repeatCount="indefinite"/>
+      <circle r="85" fill="none" stroke="#c9302c" stroke-width="2" opacity="0.5" 
+              stroke-dasharray="10,5"/>
+    </g>
+  </g>
+  
+  <!-- Inner ring - rotates clockwise in 40s with 8 radial line marks -->
+  <g transform="translate(140, 140)">
+    <g>
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        from="0"
+                        to="360"
+                        dur="40s"
+                        repeatCount="indefinite"/>
+      <circle r="50" fill="none" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      
+      <!-- 8 radial line marks -->
+      <line x1="0" y1="-50" x2="0" y2="-60" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="35.4" y1="-35.4" x2="42.4" y2="-42.4" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="50" y1="0" x2="60" y2="0" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="35.4" y1="35.4" x2="42.4" y2="42.4" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="0" y1="50" x2="0" y2="60" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="-35.4" y1="35.4" x2="-42.4" y2="42.4" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="-50" y1="0" x2="-60" y2="0" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+      <line x1="-35.4" y1="-35.4" x2="-42.4" y2="-42.4" stroke="#c9302c" stroke-width="2" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Center pulsing crimson core -->
+  <g transform="translate(140, 140)">
+    <circle r="20" fill="#c9302c" opacity="0.8">
+      <animate attributeName="r" 
+               values="20;25;20" 
+               dur="3s" 
+               repeatCount="indefinite"/>
+      <animate attributeName="opacity" 
+               values="0.8;0.4;0.8" 
+               dur="3s" 
+               repeatCount="indefinite"/>
+    </circle>
+    <circle r="12" fill="#c9302c" opacity="1"/>
+  </g>
+</svg>
