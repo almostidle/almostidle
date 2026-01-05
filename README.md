@@ -98,12 +98,12 @@
 <br/>
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=almostidle&show_icons=true&hide_border=true&bg_color=0d1117&title_color=c9302c&icon_color=c9302c&text_color=8b949e&ring_color=c9302c" width="420" />
+<img src="./assets/stats.svg" width="420" />
 
 <br/>
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=almostidle&theme=dark&hide_border=true&background=0D1117&ring=C9302C&fire=C9302C&currStreakLabel=C9302C&sideLabels=8B949E&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" width="420" />
+<img src="./assets/streak.svg" width="420" />
 
 <br/>
 <br/>
