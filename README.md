@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="" width="25%" align="right" />
+<img src="pokemon.jpg" width="25%" align="right" />
 
 <img src="" width="70%" />
 
@@ -20,7 +20,7 @@
 
 <br>
 
-<img src="" height="40" />
+<img src="assets/temp.jpg" height="40" />
 
 <br><br>
 
