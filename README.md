@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/almostidle/almostidle/assets/pokemon.jpg" width="25%" align="right" />
+<img src="assets/pokemon.jpg" width="25%" align="right" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=500&size=50&duration=4000&pause=300&color=A7A459&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=1300&height=140&lines=Hello+hello;I'm+Dushyant%2C+a+CS+student+and+almost+idle+%F0%9F%8C%99" width="70%" />
 
@@ -16,15 +16,14 @@
 
     🎮 Anime • Music • Movie • Code
 
+    🐾 Jacky 🪦❤️
+
 </pre>
 
 <br>
 
-<img src="assets/temp.jpg" height="40" />
+<img src="assets/output-onlinegiftools.gif" height="200" />
 
 <br><br>
-
-[![](https://img.shields.io/badge/linkedin-0a66c2)](https://www.linkedin.com/in/dushyant2005/)
-
 </div>
 
